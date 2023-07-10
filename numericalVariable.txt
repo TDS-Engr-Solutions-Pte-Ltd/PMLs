@@ -1,0 +1,18 @@
+new EQUI /WALL
+new box
+xlen 5000 ylen 200 zlen 3000
+var1 name 
+end
+new sube /DOORA
+new box copy $v1
+xlen 1000 zlen 2000 
+by d 500
+var2 name
+$v1
+new NBOX
+xlen ( xlen of $v2 )
+ylen ( ylen of $v2 )
+zlen ( zlen of $v2 )
+pos pos of $v2
+$v2
+ylen 100
