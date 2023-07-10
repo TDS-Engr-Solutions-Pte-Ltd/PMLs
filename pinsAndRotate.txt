@@ -1,0 +1,4 @@
+pin 1 at ce
+q xlen ylen zlen
+pin 1 by x 500 z -1000
+rotate about u by 15 through pin 1
